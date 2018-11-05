@@ -26,7 +26,7 @@ namespace E23Exercice1
     {
         // C'est constante sont utilisé dans le programme JeuDeLaVie.cs, donc si vous les modifiers ,ils seront changé aussi dans JeuDeLaVie.cs
         public const int NbColonnes = 100;      // Nb de colonnes dans la matrice
-        public const int NbLignes = 50;        // Nb de lignes dans la matrice
+        public const int NbLignes = 40;        // Nb de lignes dans la matrice
 
         const char CharRemplissage = '*';   // Le caractère qui servira à dessiner dans la matrice
 
@@ -88,7 +88,7 @@ namespace E23Exercice1
                  "\n 1- Faire afficher la matrice\n" +
                  " 2- Dessiner dans la matrice\n" +
                  " 3- Animation - Point Aléatoire dans la Matrice\n" +
-                 " 4- Jeu de la Vie de Conway (IL MARCHE!!!!)\n", 1, 4, 0);
+                 " 4- Jeu de la Vie de Conway \n", 1, 4, 0);
         }
 
         /// <summary>
